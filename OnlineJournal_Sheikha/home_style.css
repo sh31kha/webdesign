@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+.header{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.container{
+	height: 100%;
+	width: 100%;
+	position:relative;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.navbar{
+	width: 100%;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	margin:auto;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 40px;
+}
+nav ul li a{
+	text-decoration: none;
+	color:black;
+	font-size: 16px;
+	font-family: "Bluu Next";
+}
+nav ul li a:hover{
+	border-bottom: 2px solid #000000;
+}
+
+h1{
+	font-family:'Archivo Narrow';
+	font-size: 119.66px;
+	transform: translateY(100px);
+	padding-left: 40px;
+}
+h2{ 
+	font-family: "Bluu Next";
+	font-size: 37.9px;
+	margin-left: 17vh;
+	transform: translateY(218px);
+}
+h3{
+	font-family: "Bluu Next";
+	font-size: 50.52px;	
+	text-align: center;
+	transform: translateY(60%);
+	padding-right: 40px;
+}
+p{
+	font-family: "Archivo Narrow";
+	font-weight: normal;
+	font-size: 21.33px;
+	padding-right: 40px;
+}
+article{
+	width: 34em;
+	margin: inherit;
+	max-width: 100%;
+	line-height: 1.3;
+}
+.right-text{
+	float: right;
+	padding-top: 12%;
+	transform: translateX(-4vw);
+}
+
+.left-header{
+	float: left;
+	background-image: url("Online Journal_1.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 102%;
+	height: 100vh;
+	transform: translateY(10vh);
+}
+
+.left-header h2{
+	transform: translateY(40vh);
+}
+
+.left-header h1{
+	transform: translateY(22vh);
+}
+
+.about-text img{
+	padding-top: 70px;
+	transform: translateY(-20px);
+	transform: translateX(-10px);
+	width: 100vh;
+}
